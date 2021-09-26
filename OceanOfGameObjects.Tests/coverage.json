@@ -1,0 +1,647 @@
+{
+  "OceanOfGameObjects.BusinessLogic.dll": {
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.BusinessLogic\\OceanOfGameObjectBusinessLogic.cs": {
+      "OceanOfGameObjects.BusinessLogic.OceanOfGameObjectBusinessLogic": {
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.BusinessLogic.OceanOfGameObjectBusinessLogic::GetAllItemFromDB()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "OceanOfGameObjects.Model.GameObjectModel OceanOfGameObjects.BusinessLogic.OceanOfGameObjectBusinessLogic::GetItemByIDFromDB(System.Int32)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        },
+        "OceanOfGameObjects.Model.GameObjectModel OceanOfGameObjects.BusinessLogic.OceanOfGameObjectBusinessLogic::GetItemByIDAndCategoryFromDB(System.Int32,System.String)": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "OceanOfGameObjects.Model.GameObjectModel OceanOfGameObjects.BusinessLogic.OceanOfGameObjectBusinessLogic::GetItemByNameFromDB(System.String)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.BusinessLogic.OceanOfGameObjectBusinessLogic::GetItemByCategoryFromDB(System.String)": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.BusinessLogic.OceanOfGameObjectBusinessLogic::GetItemByTypeFromDB(System.String)": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.BusinessLogic.OceanOfGameObjectBusinessLogic::GetItemByDateFromDB(System.DateTime)": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.BusinessLogic.OceanOfGameObjectBusinessLogic::InsertItem(OceanOfGameObjects.Model.GameObjectModelInsert)": {
+          "Lines": {
+            "62": 0,
+            "63": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.BusinessLogic.OceanOfGameObjectBusinessLogic::.ctor(OceanOfGameObjects.DataAccessLayer.Interfaces.IOceanOfGameObjectsDAL,OceanOfGameObjects.DataAccessLayer.IOceanOfObjectModelInsertDAL)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "OceanOfGameObjects.Controllers.dll": {
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Controllers\\OceanOfGameObjectsController.cs": {
+      "OceanOfGameObjects.Controllers.OceanOfGameObjectsController": {
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.Controllers.OceanOfGameObjectsController::GetAllItem()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "OceanOfGameObjects.Model.GameObjectModel OceanOfGameObjects.Controllers.OceanOfGameObjectsController::GetItemById(System.Int32)": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": []
+        },
+        "OceanOfGameObjects.Model.GameObjectModel OceanOfGameObjects.Controllers.OceanOfGameObjectsController::GetItemByName(System.String)": {
+          "Lines": {
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.Controllers.OceanOfGameObjectsController::GetItemByIdAndCategory(System.String)": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.Controllers.OceanOfGameObjectsController::GetItemByType(System.String)": {
+          "Lines": {
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.Controllers.OceanOfGameObjectsController::GetItemByDate(System.DateTime)": {
+          "Lines": {
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.Controllers.OceanOfGameObjectsController::GetLatestItem()": {
+          "Lines": {
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.Controllers.OceanOfGameObjectsController::.ctor(Microsoft.Extensions.Logging.ILogger`1<OceanOfGameObjects.Controllers.OceanOfGameObjectsController>,OceanOfGameObjects.BusinessLogic.IOceanOfGameObjectBusinessLogic)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Controllers\\OceanOfGameObjectsDeleteController.cs": {
+      "OceanOfGameObjects.Controllers.OceanOfGameObjectsDeleteController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult OceanOfGameObjects.Controllers.OceanOfGameObjectsDeleteController::DeleteByName(System.String)": {
+          "Lines": {
+            "26": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult OceanOfGameObjects.Controllers.OceanOfGameObjectsDeleteController::DeleteByCategory(System.String)": {
+          "Lines": {
+            "36": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.Controllers.OceanOfGameObjectsDeleteController::DeleteAllItems()": {
+          "Lines": {
+            "47": 0,
+            "49": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.Controllers.OceanOfGameObjectsDeleteController::.ctor(OceanOfGameObjects.BusinessLogic.IOceanOfGameObjectBusinessLogic)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Controllers\\OceanOfGameObjectsInsertController.cs": {
+      "OceanOfGameObjects.Controllers.OceanOfGameObjectsInsertController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult OceanOfGameObjects.Controllers.OceanOfGameObjectsInsertController::InsertOneItem(OceanOfGameObjects.Model.GameObjectModelInsert)": {
+          "Lines": {
+            "26": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.Controllers.OceanOfGameObjectsInsertController::InsertMultipleItem(System.Collections.Generic.List`1<OceanOfGameObjects.Model.GameObjectModel>)": {
+          "Lines": {
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.Controllers.OceanOfGameObjectsInsertController::.ctor(OceanOfGameObjects.BusinessLogic.IOceanOfGameObjectBusinessLogic)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Controllers\\OceanOfGameObjectsUpdateController.cs": {
+      "OceanOfGameObjects.Controllers.OceanOfGameObjectsUpdateController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult OceanOfGameObjects.Controllers.OceanOfGameObjectsUpdateController::UpdateOneItem(OceanOfGameObjects.Model.GameObjectModelInsert)": {
+          "Lines": {
+            "25": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.Controllers.OceanOfGameObjectsUpdateController::UpdateMultipleItem(System.Collections.Generic.List`1<OceanOfGameObjects.Model.GameObjectModel>)": {
+          "Lines": {
+            "35": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.Controllers.OceanOfGameObjectsUpdateController::.ctor(OceanOfGameObjects.BusinessLogic.IOceanOfGameObjectBusinessLogic)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "OceanOfGameObjects.DataAccessLayer.dll": {
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.DataAccessLayer\\OceanOfGameObjectsDAL.cs": {
+      "OceanOfGameObjects.DataAccessLayer.OceanOfGameObjectsDAL": {
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.DataAccessLayer.OceanOfGameObjectsDAL::FetchAllItemFromDB()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 199,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 199,
+              "EndOffset": 201,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "OceanOfGameObjects.Model.GameObjectModel OceanOfGameObjects.DataAccessLayer.OceanOfGameObjectsDAL::FetchItemByIDFromDB(System.Int32)": {
+          "Lines": {
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0
+          },
+          "Branches": [
+            {
+              "Line": 76,
+              "Offset": 199,
+              "EndOffset": 83,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 199,
+              "EndOffset": 201,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "OceanOfGameObjects.Model.GameObjectModel OceanOfGameObjects.DataAccessLayer.OceanOfGameObjectsDAL::FetchItemByIDAndCategoryFromDB(System.Int32,System.String)": {
+          "Lines": {
+            "98": 0,
+            "99": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "134": 0,
+            "135": 0
+          },
+          "Branches": [
+            {
+              "Line": 116,
+              "Offset": 234,
+              "EndOffset": 118,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 234,
+              "EndOffset": 236,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "OceanOfGameObjects.Model.GameObjectModel OceanOfGameObjects.DataAccessLayer.OceanOfGameObjectsDAL::FetchItemByNameFromDB(System.String)": {
+          "Lines": {
+            "138": 0,
+            "139": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.DataAccessLayer.OceanOfGameObjectsDAL::FetchItemByCategoryFromDB(System.String)": {
+          "Lines": {
+            "143": 0,
+            "144": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.DataAccessLayer.OceanOfGameObjectsDAL::FetchItemByTypeFromDB(System.String)": {
+          "Lines": {
+            "148": 0,
+            "149": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<OceanOfGameObjects.Model.GameObjectModel> OceanOfGameObjects.DataAccessLayer.OceanOfGameObjectsDAL::FetchItemByDateFromDB(System.DateTime)": {
+          "Lines": {
+            "153": 0,
+            "154": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.DataAccessLayer.OceanOfGameObjectsDAL::.ctor(OceanOfGameObjects.DataAccessLayer.DBConfig.IConfig)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.DataAccessLayer\\OceanOfObjectModelInsertDAL.cs": {
+      "OceanOfGameObjects.DataAccessLayer.OceanOfObjectModelInsertDAL": {
+        "System.Void OceanOfGameObjects.DataAccessLayer.OceanOfObjectModelInsertDAL::InsertSingleItemInDB(OceanOfGameObjects.Model.GameObjectModelInsert)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.DataAccessLayer.OceanOfObjectModelInsertDAL::.ctor(OceanOfGameObjects.DataAccessLayer.DBConfig.IConfig)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.DataAccessLayer\\DBConfig\\Config.cs": {
+      "OceanOfGameObjects.DataAccessLayer.DBConfig.Config": {
+        "System.String OceanOfGameObjects.DataAccessLayer.DBConfig.Config::GetConnection()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.DataAccessLayer.DBConfig.Config::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "OceanOfGameObjects.Shared.dll": {
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\CustomDatetimeValidation.cs": {
+      "OceanOfGameObjects.Model.CustomDatetimeValidation": {
+        "System.DateTime OceanOfGameObjects.Model.CustomDatetimeValidation::get_MinDatetime()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 OceanOfGameObjects.Model.CustomDatetimeValidation::get_Maximum()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean OceanOfGameObjects.Model.CustomDatetimeValidation::IsValid(System.Object)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void OceanOfGameObjects.Model.CustomDatetimeValidation::.ctor()": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\ErrorDetails.cs": {
+      "OceanOfGameObjects.Model.ErrorDetails": {
+        "System.Int32 OceanOfGameObjects.Model.ErrorDetails::get_StatusCode()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String OceanOfGameObjects.Model.ErrorDetails::get_Message()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String OceanOfGameObjects.Model.ErrorDetails::ToString()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\Models\\GameObjectModel.cs": {
+      "OceanOfGameObjects.Model.GameObjectModel": {
+        "System.Int32 OceanOfGameObjects.Model.GameObjectModel::get_Gameid()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\Models\\GameObjectModelInsert.cs": {
+      "OceanOfGameObjects.Model.GameObjectModelInsert": {
+        "System.String OceanOfGameObjects.Model.GameObjectModelInsert::get_Name()": {
+          "Lines": {
+            "13": 4
+          },
+          "Branches": []
+        },
+        "System.String OceanOfGameObjects.Model.GameObjectModelInsert::get_Category()": {
+          "Lines": {
+            "16": 4
+          },
+          "Branches": []
+        },
+        "System.String OceanOfGameObjects.Model.GameObjectModelInsert::get_Type()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Double OceanOfGameObjects.Model.GameObjectModelInsert::get_Size()": {
+          "Lines": {
+            "22": 4
+          },
+          "Branches": []
+        },
+        "System.String OceanOfGameObjects.Model.GameObjectModelInsert::get_URL()": {
+          "Lines": {
+            "25": 4
+          },
+          "Branches": []
+        },
+        "System.DateTime OceanOfGameObjects.Model.GameObjectModelInsert::get_UploadedDate()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

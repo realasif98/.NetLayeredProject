@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.11.0.0",
+        "fileVersion": "3.11.0-4.21373.6 (bb3bdbbe)",
+        "semanticVersion": "3.11.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'IOceanOfObjectModelInsertDAL' to match pascal case naming rules, consider using 'IOceanOfObjectModelInsertDal'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mohammadasif/Documents/Projects/OceanOfGameObjects/OceanOfGameObjects.DataAccessLayer/Interfaces/IOceanOfObjectModelInsertDAL.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 22,
+                  "endLine": 5,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename interface 'IOceanOfGameObjectsDAL' to match pascal case naming rules, consider using 'IOceanOfGameObjectsDal'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mohammadasif/Documents/Projects/OceanOfGameObjects/OceanOfGameObjects.DataAccessLayer/Interfaces/IOceanOfGameObjectsDAL.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 22,
+                  "endLine": 10,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'OceanOfObjectModelInsertDAL' to match pascal case naming rules, consider using 'OceanOfObjectModelInsertDal'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mohammadasif/Documents/Projects/OceanOfGameObjects/OceanOfGameObjects.DataAccessLayer/OceanOfObjectModelInsertDAL.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'OceanOfGameObjectsDAL' to match pascal case naming rules, consider using 'OceanOfGameObjectsDal'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mohammadasif/Documents/Projects/OceanOfGameObjects/OceanOfGameObjects.DataAccessLayer/OceanOfGameObjectsDAL.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 18,
+                  "endLine": 15,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

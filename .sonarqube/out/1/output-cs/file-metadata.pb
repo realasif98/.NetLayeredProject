@@ -1,0 +1,9 @@
+z
+qC:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\DBConfig\Config.csutf-8{
+rC:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\DBConfig\IConfig.csutf-8ç
+ÉC:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\Interfaces\IOceanOfGameObjectsDAL.csutf-8ì
+âC:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\Interfaces\IOceanOfObjectModelInsertDAL.csutf-8Ä
+wC:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\OceanOfGameObjectsDAL.csutf-8Ü
+}C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\OceanOfObjectModelInsertDAL.csutf-8™
+ûC:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8Æ
+¢C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\obj\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.AssemblyInfo.csutf-8

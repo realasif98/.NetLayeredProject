@@ -1,0 +1,3 @@
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\out\OceanOfGameObjects.Shared.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\out\OceanOfGameObjects.Shared.deps.json
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\out\OceanOfGameObjects.Shared.pdb

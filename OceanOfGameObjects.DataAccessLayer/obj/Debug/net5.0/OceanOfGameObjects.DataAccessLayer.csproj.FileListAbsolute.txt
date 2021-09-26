@@ -1,0 +1,15 @@
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\bin\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.deps.json
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\bin\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\bin\Debug\net5.0\ref\OceanOfGameObjects.DataAccessLayer.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\bin\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.pdb
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\bin\Debug\net5.0\OceanOfGameObjects.Shared.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\bin\Debug\net5.0\OceanOfGameObjects.Shared.pdb
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\obj\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\obj\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\obj\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\obj\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.AssemblyInfo.cs
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\obj\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\obj\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.csproj.CopyComplete
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\obj\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\obj\Debug\net5.0\ref\OceanOfGameObjects.DataAccessLayer.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.DataAccessLayer\obj\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.pdb

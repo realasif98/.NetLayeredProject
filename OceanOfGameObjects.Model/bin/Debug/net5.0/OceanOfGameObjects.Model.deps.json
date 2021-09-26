@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "OceanOfGameObjects.Model/1.0.0": {
+        "runtime": {
+          "OceanOfGameObjects.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OceanOfGameObjects.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

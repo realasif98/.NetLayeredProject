@@ -1,0 +1,389 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects\\OceanOfGameObjects.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.BusinessLogic\\OceanOfGameObjects.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.BusinessLogic\\OceanOfGameObjects.BusinessLogic.csproj",
+        "projectName": "OceanOfGameObjects.BusinessLogic",
+        "projectPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.BusinessLogic\\OceanOfGameObjects.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\mohammadasif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mohammadasif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.DataAccessLayer\\OceanOfGameObjects.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.DataAccessLayer\\OceanOfGameObjects.DataAccessLayer.csproj"
+              },
+              "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\OceanOfGameObjects.Shared.csproj": {
+                "projectPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\OceanOfGameObjects.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Controllers\\OceanOfGameObjects.Controllers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Controllers\\OceanOfGameObjects.Controllers.csproj",
+        "projectName": "OceanOfGameObjects.Controllers",
+        "projectPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Controllers\\OceanOfGameObjects.Controllers.csproj",
+        "packagesPath": "C:\\Users\\mohammadasif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Controllers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mohammadasif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.BusinessLogic\\OceanOfGameObjects.BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.BusinessLogic\\OceanOfGameObjects.BusinessLogic.csproj"
+              },
+              "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\OceanOfGameObjects.Shared.csproj": {
+                "projectPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\OceanOfGameObjects.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.DataAccessLayer\\OceanOfGameObjects.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.DataAccessLayer\\OceanOfGameObjects.DataAccessLayer.csproj",
+        "projectName": "OceanOfGameObjects.DataAccessLayer",
+        "projectPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.DataAccessLayer\\OceanOfGameObjects.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\mohammadasif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mohammadasif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\OceanOfGameObjects.Shared.csproj": {
+                "projectPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\OceanOfGameObjects.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\OceanOfGameObjects.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\OceanOfGameObjects.Shared.csproj",
+        "projectName": "OceanOfGameObjects.Shared",
+        "projectPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\OceanOfGameObjects.Shared.csproj",
+        "packagesPath": "C:\\Users\\mohammadasif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mohammadasif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects\\OceanOfGameObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects\\OceanOfGameObjects.csproj",
+        "projectName": "OceanOfGameObjects",
+        "projectPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects\\OceanOfGameObjects.csproj",
+        "packagesPath": "C:\\Users\\mohammadasif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mohammadasif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Controllers\\OceanOfGameObjects.Controllers.csproj": {
+                "projectPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.Controllers\\OceanOfGameObjects.Controllers.csproj"
+              },
+              "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.DataAccessLayer\\OceanOfGameObjects.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\mohammadasif\\Documents\\Projects\\OceanOfGameObjects\\OceanOfGameObjects.DataAccessLayer\\OceanOfGameObjects.DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.16.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

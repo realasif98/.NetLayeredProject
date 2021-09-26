@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-09-10T06:21:36.332657Z"
+    },
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2021-09-10T06:15:34.5878349Z"
+    }
+  },
+  "parameters": {
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "DefaultResourceGroup-CUS"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "2f916114-9cb7-4f28-8244-d2ffa16f8768"
+    }
+  }
+}

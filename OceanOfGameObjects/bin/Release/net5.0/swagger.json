@@ -1,0 +1,440 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "OceanOfGameObjects",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/OceanOfGameObjects/GetAllItem": {
+      "get": {
+        "tags": [
+          "OceanOfGameObjects"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/GameObjectModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjects/GetItemById/{id}": {
+      "get": {
+        "tags": [
+          "OceanOfGameObjects"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/GameObjectModel"
+            }
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjects/GetItemByName/{name}": {
+      "get": {
+        "tags": [
+          "OceanOfGameObjects"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "name",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/GameObjectModel"
+            }
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjects/GetItemByCategory/{category}": {
+      "get": {
+        "tags": [
+          "OceanOfGameObjects"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "category",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/GameObjectModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjects/GetItemByType/{type}": {
+      "get": {
+        "tags": [
+          "OceanOfGameObjects"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "type",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/GameObjectModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjects/GetItemByDate/{date}": {
+      "get": {
+        "tags": [
+          "OceanOfGameObjects"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "date",
+            "required": true,
+            "type": "string",
+            "format": "date-time"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/GameObjectModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjects/GetLatestItems": {
+      "get": {
+        "tags": [
+          "OceanOfGameObjects"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/GameObjectModel"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjectsDelete/DeleteByName/{name}": {
+      "delete": {
+        "tags": [
+          "OceanOfGameObjectsDelete"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "name",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjectsDelete/DeleteByCategory/{category}": {
+      "delete": {
+        "tags": [
+          "OceanOfGameObjectsDelete"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "category",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjectsDelete/DeleteAll": {
+      "delete": {
+        "tags": [
+          "OceanOfGameObjectsDelete"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjectsInsert/InsertOne": {
+      "post": {
+        "tags": [
+          "OceanOfGameObjectsInsert"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/GameObjectModelInsert"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjectsInsert/InsertMultiple": {
+      "post": {
+        "tags": [
+          "OceanOfGameObjectsInsert"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/GameObjectModel"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjectsUpdate/UpdateOne": {
+      "patch": {
+        "tags": [
+          "OceanOfGameObjectsUpdate"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/GameObjectModelInsert"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/OceanOfGameObjectsUpdate/UpdateMultiple": {
+      "patch": {
+        "tags": [
+          "OceanOfGameObjectsUpdate"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/GameObjectModel"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "GameObjectModel": {
+      "required": [
+        "category",
+        "name",
+        "size",
+        "type",
+        "uploadedDate",
+        "url"
+      ],
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "size": {
+          "format": "double",
+          "type": "number"
+        },
+        "url": {
+          "type": "string"
+        },
+        "uploadedDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "gameid": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    },
+    "GameObjectModelInsert": {
+      "required": [
+        "category",
+        "name",
+        "size",
+        "type",
+        "uploadedDate",
+        "url"
+      ],
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "size": {
+          "format": "double",
+          "type": "number"
+        },
+        "url": {
+          "type": "string"
+        },
+        "uploadedDate": {
+          "format": "date-time",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

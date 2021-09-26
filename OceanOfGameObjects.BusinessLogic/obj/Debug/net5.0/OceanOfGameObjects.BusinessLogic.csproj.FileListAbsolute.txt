@@ -1,0 +1,17 @@
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\bin\Debug\net5.0\OceanOfGameObjects.BusinessLogic.deps.json
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\bin\Debug\net5.0\OceanOfGameObjects.BusinessLogic.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\bin\Debug\net5.0\ref\OceanOfGameObjects.BusinessLogic.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\bin\Debug\net5.0\OceanOfGameObjects.BusinessLogic.pdb
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\bin\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\bin\Debug\net5.0\OceanOfGameObjects.Shared.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\bin\Debug\net5.0\OceanOfGameObjects.DataAccessLayer.pdb
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\bin\Debug\net5.0\OceanOfGameObjects.Shared.pdb
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\obj\Debug\net5.0\OceanOfGameObjects.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\obj\Debug\net5.0\OceanOfGameObjects.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\obj\Debug\net5.0\OceanOfGameObjects.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\obj\Debug\net5.0\OceanOfGameObjects.BusinessLogic.AssemblyInfo.cs
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\obj\Debug\net5.0\OceanOfGameObjects.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\obj\Debug\net5.0\OceanOfGameObjects.BusinessLogic.csproj.CopyComplete
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\obj\Debug\net5.0\OceanOfGameObjects.BusinessLogic.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\obj\Debug\net5.0\ref\OceanOfGameObjects.BusinessLogic.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\obj\Debug\net5.0\OceanOfGameObjects.BusinessLogic.pdb

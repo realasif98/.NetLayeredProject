@@ -1,0 +1,58 @@
+networks:
+  elastic:
+    driver: nat
+services:
+  elasticsearch:
+    container_name: elasticsearch
+    environment:
+      ES_JAVA_OPTS: -Xms512m -Xmx512m
+      discovery.type: single-node
+      xpack.monitoring.enabled: "true"
+      xpack.watcher.enabled: "false"
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.9.2
+    networks:
+      elastic: {}
+    ports:
+    - published: 9200
+      target: 9200
+    volumes:
+    - elasticsearch-data:/usr/share/elasticsearch/data:rw
+  kibana:
+    container_name: kibana
+    depends_on:
+      elasticsearch:
+        condition: service_started
+    entrypoint:
+    - ./bin/kibana
+    - --allow-root
+    environment:
+      ELASTICSEARCH_URL: http://localhost:9200
+    image: docker.elastic.co/kibana/kibana:7.9.2
+    networks:
+      elastic: {}
+    ports:
+    - published: 5601
+      target: 5601
+  oceanofgameobjects:
+    build:
+      context: C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects
+      dockerfile: OceanOfGameObjects\Dockerfile
+    container_name: oceanofgameobjects
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT:44361: null
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: oceanofgameobjects
+    networks:
+      elastic: {}
+    ports:
+    - target: 80
+    - target: 443
+    - published: 44361
+      target: 44361
+    volumes:
+    - C:\Users\mohammadasif\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+    - C:\Users\mohammadasif\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+version: '3.4'
+volumes:
+  elasticsearch-data: {}

@@ -1,0 +1,12 @@
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.Model\bin\Debug\net5.0\OceanOfGameObjects.Model.deps.json
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.Model\bin\Debug\net5.0\OceanOfGameObjects.Model.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.Model\bin\Debug\net5.0\ref\OceanOfGameObjects.Model.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.Model\bin\Debug\net5.0\OceanOfGameObjects.Model.pdb
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.Model\obj\Debug\net5.0\OceanOfGameObjects.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.Model\obj\Debug\net5.0\OceanOfGameObjects.Model.AssemblyInfoInputs.cache
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.Model\obj\Debug\net5.0\OceanOfGameObjects.Model.AssemblyInfo.cs
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.Model\obj\Debug\net5.0\OceanOfGameObjects.Model.csproj.CoreCompileInputs.cache
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.Model\obj\Debug\net5.0\OceanOfGameObjects.Model.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.Model\obj\Debug\net5.0\ref\OceanOfGameObjects.Model.dll
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.Model\obj\Debug\net5.0\OceanOfGameObjects.Model.pdb
+C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.Model\obj\Debug\net5.0\OceanOfGameObjects.Model.csproj.AssemblyReference.cache

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+	  <ProjectGuid>{E2CEBBAF-6DF7-41E9-815D-9AD4CF90C845}</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OceanOfGameObjects.DataAccessLayer\OceanOfGameObjects.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\OceanOfGameObjects.Model\OceanOfGameObjects.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

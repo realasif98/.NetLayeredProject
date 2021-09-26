@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>OceanOfGameObjects.BusinessLogic</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>e2cebbaf-6df7-41e9-815d-9ad4cf90c845</ProjectGuid>
+  <FullPath>C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\OceanOfGameObjects.BusinessLogic.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\.sonarqube\out\2\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePath">C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\bin\Debug\net5.0\OceanOfGameObjects.BusinessLogic.dll.RoslynCA.json|C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\OceanOfGameObjects.BusinessLogic\bin\Debug\net5.0\OceanOfGameObjects.BusinessLogic.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPath">C:\Users\mohammadasif\Documents\Projects\OceanOfGameObjects\.sonarqube\out\2</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net5.0</TargetFramework>
+</ProjectInfo>
